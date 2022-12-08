@@ -5,13 +5,13 @@ import { useState } from 'react';
 import './style.css';
 import Alert from './components/Alert';
 import About from './components/About'
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Switch,
-//   Route,
-//   Link,
-// } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
 function App() {
   const [mode, setMode] = useState('light'); //Whether dark mode is enabled or not
   const [alert, setAlert] = useState(null);
@@ -29,31 +29,31 @@ function App() {
       setMode('dark')
       document.body.style.backgroundColor = '#13202d'
       showAlert("Dark Mode was enabled", "success")
-      document.title = 'Textutils - Dark Mode'
+      // document.title = 'Textutils - Dark Mode'
     } else {
       setMode('light')
       document.body.style.backgroundColor = 'white'
       showAlert("Light Mode was enabled", "success")
-      document.title = 'Textutils - Light Mode'
+      // document.title = 'Textutils - Light Mode'
     }
   }
   return (
     // /users->comp1
     // /users/home->comp2
     <>
-      {/* <Router> */}
+      <Router>
         <Navbar title="TextUtils" aboutText="About" mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert} />
         <div className="container my-3">
-        <TextForm heading="Enter the text to analyse below" mode={mode} showAlert={showAlert} />  
-          {/* <Routes>
+        {/* <TextForm heading="Enter the text to analyse below" mode={mode} showAlert={showAlert} />   */}
+          <Routes>
             <Route exact path='/about' element={<About/>}>
             </Route>
-            <Route exact path='/' element={<TextForm heading="Enter the text to analyse below" mode={mode} showAlert={showAlert} />}>
+            <Route exact path='/' element={<TextForm heading={String(document.title)} mode={mode} showAlert={showAlert} />}>
             </Route>
-          </Routes> */}
+          </Routes>
         </div>
-      {/* </Router> */}
+      </Router>
     </>
   );
 }
