@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": { "id": "bbc-sport", "name": "BBC Sport" },
+      "author": null,
+      "title": "Pakistan resume 174 runs behind England on day two - radio & text",
+      "description": "Follow live text updates and BBC Test Match Special commentary from day two of the second Test between England and Pakistan at the Multan Cricket Stadium.",
+      "url": "http://www.bbc.co.uk/sport/live/cricket/62865930",
+      "urlToImage": "https:////m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.23.3/images/bbc-sport-logo.png",
+      "publishedAt": "2022-12-10T05:07:28.5268391Z",
+      "content": "There's plenty of mist lingering across the stadium in Multan but we are set to start on time.\r\nUmpires Aleem Dar and Marais Erasmus head out on to the field, followed by the players.\r\nJames Anderson… [+264 chars]"
+    },
+    {
+      "source": { "id": "google-news-in", "name": "Google News (India)" },
+      "author": null,
+      "title": "\"Tournaments Keep Coming...\":S Jaishankar On India-Pak Cricket Ties",
+      "description": "India's External Affairs Minister S Jaishankar has given a strong message to cross-border terrorism by dismissing that there will be no cricketing ties between India and Pakistan.",
+      "url": "https://www.ndtv.com/india-news/tournaments-keep-coming-s-jaishankar-on-india-pak-cricket-ties-3594561",
+      "urlToImage": "https://c.ndtvimg.com/2022-04/58h2h1go_s-jaishankar-pti_625x300_13_April_22.jpg",
+      "publishedAt": "2022-12-10T04:11:00+00:00",
+      "content": "The last time these two teams played a bilateral series was way back in 2012.\r\nNew Delhi: India's External Affairs Minister S Jaishankar has given a strong message to cross-border terrorism by dismis… [+2247 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+      "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+      "publishedAt": "2020-04-27T11:41:47Z",
+      "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+      "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+      "publishedAt": "2020-03-30T15:26:05Z",
+      "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+  ]
+}
